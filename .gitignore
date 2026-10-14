@@ -1,0 +1,19 @@
+# Data besar (unduh dari Kaggle, lihat README)
+data/*.csv
+!data/.gitkeep
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+
+# Artefak sementara
+*.npy
+
+# Environment
+venv/
+.env
+
+# OS
+.DS_Store
